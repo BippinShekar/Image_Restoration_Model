@@ -26,7 +26,7 @@ We as a Team have created an Image Restoration Model implementing Convolutional 
       ***b***. Acquiring around 10,000 data points and performing data pre-processing tasks on these images, this one was of the hardest challenges face during the project 
                devlopment phase, as it was computationally expensive.
              
-  2.**Step 2- Data Pre-Processing**.
+  2. **Step 2- Data Pre-Processing**.
      The Data Pre-Processing steps contain the resizing and the normalization of all the images in our respective data sets. After passing the data through the resizing and
      normalization functions, we enter the step of splitting the data into training and testing data. After performing the splitting, using the train_test_split model from
      SKlearn, we perform stack operation on the x_train, x_test, y_train, and y_test, from the 10,000 data points we have allocated 20% of it to validations sets.Stacking 
