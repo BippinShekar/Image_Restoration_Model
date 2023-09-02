@@ -16,7 +16,7 @@ We as a Team have created an Image Restoration Model implementing Convolutional 
   1. **Step 1 - Data collection**.
     Data Collection was the first major milestone in our project creation journey.
     ***a***. This step required us to scrape the internet to acquire the images that can be utilized. After, collection the next sub-step is to process the data according               to our problem statement requirements, which required us to prepare the data. Data Preperation step consisted of applying the required blur, noise, scratches,              and water spill effects.
-    ***b***. Acquiring around 10,000 data points and performing data pre-processing tasks on these images, this one was of the hardest challenges face during the project 
+     ***b***. Acquiring around 10,000 data points and performing data pre-processing tasks on these images, this one was of the hardest challenges face during the project 
              devlopment phase, as it was computationally expensive.
   2.**Step 2- Data Pre-Processing**.
      The Data Pre-Processing steps contain the resizing and the normalization of all the images in our respective data sets. After passing the data through the resizing and
