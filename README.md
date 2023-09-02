@@ -12,13 +12,12 @@ We as a Team have created an Image Restoration Model implementing Convolutional 
   D Suddin Shekar Goud: - Data Collection, Web Scraping, Report preparation
   
   **Course of Action**:
+  
   1. **Step 1 - Data collection**.
     Data Collection was the first major milestone in our project creation journey.
-    a. This step required us to scrape the internet to acquire the images that can be utilized. After, collection the next sub-step is to process the data according to our 
-       problem statement requirements, which required us to prepare the data. Data Preperation step consisted of applying the required blur, noise, scratches, and water 
-       spill effects.
-    b. Acquiring around 10,000 data points and performing data pre-processing tasks on these images, this one was of the hardest challenges face during the project 
-       devlopment phase, as it was computationally expensive.
+    ***a***. This step required us to scrape the internet to acquire the images that can be utilized. After, collection the next sub-step is to process the data according               to our problem statement requirements, which required us to prepare the data. Data Preperation step consisted of applying the required blur, noise, scratches,              and water spill effects.
+    ***b***. Acquiring around 10,000 data points and performing data pre-processing tasks on these images, this one was of the hardest challenges face during the project 
+             devlopment phase, as it was computationally expensive.
   2.**Step 2- Data Pre-Processing**.
      The Data Pre-Processing steps contain the resizing and the normalization of all the images in our respective data sets. After passing the data through the resizing and
      normalization functions, we enter the step of splitting the data into training and testing data. After performing the splitting, using the train_test_split model from
@@ -32,8 +31,9 @@ We as a Team have created an Image Restoration Model implementing Convolutional 
      After the creation of our model, we compile the model by running the model using different optimizers, loss functions, and metrics, then finally settling on the ones 
      that provide the best performance, based on the blemishes we are trying to rectify. Then, we enter into the training and testing phase, which includes calculating the 
      model's accuracy.
-  6. Data post-processing comprised the steps of denormalizing and re-sizing the images into their original form.
-  7. **Step 6** - Saving the Model and Processed Data.
+  6. **Step 5 - Data Post-Processing**.
+     This step comprised the steps of denormalizing and re-sizing the images into their original form.
+  8. **Step 6** - Saving the Model and Processed Data.
      Now we have arrived at the final milestone of saving these post-processed output images into the respective folders.
 
 **Model Performance**:The highest performance accuracy is 90% while the average accuracy of the model floats around 86%.
