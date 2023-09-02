@@ -21,7 +21,8 @@ We as a Team have created an Image Restoration Model implementing Convolutional 
       ***a***. This step required us to scrape the internet to acquire the images that can be utilized. After, collection the next sub-step is to process the data   
                according to our problem statement requirements, which required us to prepare the data. Data Preperation step consisted of applying the 
                required blur, noise, scratches, and water spill effects.
-     
+
+
       ***b***. Acquiring around 10,000 data points and performing data pre-processing tasks on these images, this one was of the hardest challenges face during the project 
                devlopment phase, as it was computationally expensive.
              
